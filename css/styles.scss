@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.main {
+    height: 100vh;
+    background: url('../images/header-background.jpg') center center no-repeat;
+    
+
+    .navbar {
+        display: grid;
+        min-height: 100px;
+        grid-auto-flow: column;
+        padding: 0 20px 0 20px;
+        img {
+            justify-content: start;
+            align-items: center;
+            width: 80px;
+        }
+
+        }
+    }
+    
+}
